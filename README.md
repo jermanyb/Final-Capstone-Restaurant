@@ -7,19 +7,19 @@
 
 Installation
 
-Fork and clone this repository.
-Run npm install to install project dependencies.
-Create a .env file in the backend directory.
-Modify .env with the following:
+<p> Fork and clone this repository.
+<p>  npm install to install project dependencies.
+<p>  a .env file in the backend directory.
+<p>  .env with the following:
  DATABASEURL=_productionURL  DATABASEURL_DEVELOPMENT=_developmentURL  DATABASEURL_TEST=_testURL  DATABASEURL_PREVIEW=_previewURL  LOG_LEVEL=info
-Replace "productionURL" with the URL to your production database.
-Repeat step 5 for the remaining fields, but using the corresponding database URL.
-Create a .env file in the frontend directory.
-Modify .env with the following:
+<p>  "productionURL" with the URL to your production database.
+<p>  step 5 for the remaining fields, but using the corresponding database URL.
+<p>  a .env file in the frontend directory.
+<p>  .env with the following:
 REACT_APP_API_BASE_URL=http://localhost:5000
-From inside the backend directory, run npx knex migrate:latest.
-Run npx knex seed:run.
-Finally, go back to the root of the main directory and run npm run start:dev to run the application locally.
+<p>  inside the backend directory, run npx knex migrate:latest.
+<p>  npx knex seed:run.
+<p> , go back to the root of the main directory and run npm run start:dev to run the application locally.
 
 
 Welcome! Thanks for using our app. This app is designed to help users manage reservations for their customers.
